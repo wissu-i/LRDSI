@@ -1,0 +1,47 @@
+body{
+  background-color: white; 
+}
+/*.nav_bar{
+  background-color: rgb(59, 7, 78);
+  position: fixed;
+  top: 0;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 16%;
+  transition: box-shadow 0.15s;
+  z-index: 1;
+}
+
+.nav_bar:hover{
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  position: fixed;
+}
+.logo_image {
+  margin-top: 18px;
+  margin-left: 70px;
+  height: 80px;
+  width: 180px;
+  position: fixed;
+}*/
+
+.card{
+top: 40%;
+size: 20%;
+}
+td{
+color: black;
+}
+.card-title{ 
+text-align: center;
+color: #3b074e;
+}
+.card-title :hover{
+text-decoration: underline;
+color: #FB810f;
+}
+form{
+margin-top: 10%;
+}
+.form-label{
+font-size: large;
+}

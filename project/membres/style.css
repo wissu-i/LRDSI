@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  h1 {
+    margin-top: 100px;
+    text-align: center;
+    color: #333;
+  }
+  
+  form {
+    margin: 0 auto;
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+  
+  input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #555;
+  }
+  /*Ce code ajoute un style élégant au formulaire de connexion. Il utilise des couleurs neutres, des polices de caractères lisibles et des éléments bien espacés pour améliorer la lisibilité. Les champs d'entrée sont légèrement arrondis, avec une bordure et un arrière-plan clairs, pour les rendre plus attractifs. Le bouton de soumission est de couleur contrastante et réagit avec une légère animation au survol de la souris pour donner un feedback à l'utilisateur.
+  */
+    .table {
+        border-collapse: collapse;
+        width: 100%;
+        background-color: #555;
+    }
+    
+    .table th, .table td {
+        border: 1px solid #dddddd;
+        padding: 8px;
+        text-align: left;
+    }
+    
+    .table th {
+        background-color: #f2f2f2;
+    }
+    
+    .table tr:nth-child(even) {
+        background-color: #dddddd;
+    }
+
+
+  
+  

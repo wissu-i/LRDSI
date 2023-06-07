@@ -1,0 +1,43 @@
+.membre-equipe{
+  width: 150vh;
+  height: 100px;
+  margin-left: 200px;
+  border-radius: 10px;
+  background-color: rgba(59, 7, 78);
+  margin-top: 20vh;
+}
+
+.membre-equipe h1{
+  color: white;
+  font-size: 9vh;
+}
+
+.equipe{
+  background-color: rgba(59, 7, 78, 0.8);
+  border-radius: 10px;
+  width: 200vh;
+  height: 190vh;
+  margin: 50px;
+}
+
+.equipe h1{
+  width: 190vh;
+  margin: 20px;
+  color: white;
+  font-size: 30px;
+  border-bottom: solid 2px orange;
+}
+
+.equipe>h2{
+  color: orange;
+  margin-left: 30px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  width: 100vh;
+}
+
+#docs{
+  float: left;
+  clear: both;
+}
+

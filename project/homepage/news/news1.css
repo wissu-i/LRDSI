@@ -1,0 +1,103 @@
+.news{
+  background-color: #f2ceff;
+  border-radius: 10px;
+  position: relative;
+  float: right;
+  right: 310px;
+  top: 12vh;
+  width: 300px;
+  height: 0px;
+  visibility: hidden;
+  transition: height 0.3s ease-in-out;
+}
+
+.one-news>h1, .one-news>p, .news>h1{
+  color: black;
+}
+
+#date{
+  color: rgb(198, 131, 6);
+  margin-top: 10px;
+}
+
+.one-news>h1{
+  margin-bottom: 10px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.one-news{
+  border-bottom: solid #740a9b 2px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.news-c{
+  cursor: pointer;
+  color: white;
+  position: relative;
+  float: right;
+  top: 3.5vh;
+  right: 69vh;
+  z-index: -1;
+}
+
+.news-click{
+  cursor: pointer;
+  position: relative;
+  opacity: 0;
+  float: right;
+  top: 2vh;
+  right: 75vh;
+  height: 35px;
+  width: 35px;
+  z-index: 3;
+}
+
+div::-webkit-scrollbar {
+  width: 7px; /* Set the width of the scroll bar */
+}
+
+div::-webkit-scrollbar-track {
+  background: #f2ceff; /* Set the background color of the track */
+}
+
+div::-webkit-scrollbar-thumb {
+  background: #d690ef; /* Set the background color of the thumb */
+  border-radius: 5px; /* Round the corners of the thumb */
+}
+
+/* Optional: Change the appearance of the thumb when it's hovered or active */
+div::-webkit-scrollbar-thumb:hover {
+  background: #d68cf1;
+}
+
+div::-webkit-scrollbar-thumb:active {
+  background: #b83ae5;
+}
+
+
+.news-click:checked ~ .news{
+  visibility: visible;
+  height: 400px;
+}
+
+.news-click:checked + .news-c{
+  color: #ffa500;
+}
+
+@media(max-width: 1200px){
+
+  .news-c{
+    right: 10vh;
+    z-index: -1;
+  }
+
+  .news-click{
+    right: 17vh;
+  }
+
+  .news{
+    right: -15vh;
+  }
+}

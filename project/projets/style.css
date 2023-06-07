@@ -1,0 +1,107 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color:rgb(171, 130, 186);
+  color: rgb(88, 25, 148);
+  /*padding:50px;*/
+}
+.typewriter-container{
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 5vh ;
+}
+
+.typewriter p{
+  font-size: 45px;
+  margin-top: 20vh;
+  font-weight: lighter;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  animation:typing 3.5s steps(24);
+}
+  @keyframes typing {
+    from {width:0}
+    to {width:100%;}
+  }
+
+  .select {
+    float: right;
+    margin-top: -70px;
+    margin-bottom: 150px;
+    border-width: 100;
+    padding-top: 50px;
+    margin-right: 50px;
+   
+  }
+  
+  
+  @media screen and (max-width: 500px) {
+    .h2 {
+      float: none;
+      display: block;
+      text-align: justify;
+      color: rgb(61, 8, 235);
+      font-weight: thin;
+      font-size: large;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .select {
+      float: none;
+    }
+  }
+  .hi
+  {
+    margin-left: 750px;
+    margin-right: -250px;
+    margin-bottom: -450px;
+    margin-top:-30px;
+    padding-left: 250px;
+    padding-top: -200px;
+    padding-bottom: -450px;
+    padding-right: 400px;
+    width :700px ;
+    height: 300vh;
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+
+.box1,
+.box2,
+.box3
+{
+   width: 700px;
+   height: 500px;
+   margin :50px;
+   padding: -5px;
+   text-align: center;
+   transition: .3s ease-in-out;
+   color: rgb(88, 25, 148);
+   font-family:Tahoma, sans-serif;
+   float:right;
+  }
+
+
+.hello{
+  color: blueviolet;
+}
+.design{
+  color: rgb(88, 25, 148);
+      font-weight: thin;
+      font-size: larger;
+      font-family:Tahoma, sans-serif;
+      padding-left: 100px;
+}
+.To{
+  font-family:Tahoma, sans-serif;
+  color: rgb(18, 62, 101);
+
+}
